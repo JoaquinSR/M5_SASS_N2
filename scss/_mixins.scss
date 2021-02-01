@@ -1,0 +1,13 @@
+@mixin centered {
+    display: $f;
+    align-items: $c;
+    justify-content: $c;
+  }
+  
+@mixin strips ($color, $name, $duration){
+  background-color: $color;
+  animation-name: $name;
+  animation-duration: $duration;
+  animation-timing-function: $tFunc;
+}
+
